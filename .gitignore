@@ -1,0 +1,4 @@
+dist
+global_seqence_generator.egg-info
+__pycache__
+*.pyc

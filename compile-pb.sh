@@ -1,0 +1,1 @@
+python3 -m grpc_tools.protoc -I protos --python_out=gs/pb --grpc_python_out=gs/pb ./protos/seqence.proto

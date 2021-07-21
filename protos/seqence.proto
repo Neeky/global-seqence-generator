@@ -1,0 +1,19 @@
+syntax="proto3";
+
+// 服务端返回的 seqenceID 包
+message SeqenceID {
+    int64 id = 1;
+}
+
+// 客户端发出的请求包
+message Request {
+    string client_name = 1;
+}
+
+// Seqence 服务
+service Seqence {
+    rpc get_id(Request) returns(SeqenceID);
+}
+
+
+
